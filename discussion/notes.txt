@@ -1,0 +1,19 @@
+Arrays -> is a list of data
+[] -> array literal
+
+zero based -> for efficiency
+1 based -> fortran, R 
+
+`hello ${variale}` -> template literal
+"" '' -> string literal
+[] -> array literal
+{} -> object literal
+
+
+array functions and methods
+
+.length -> gets length of the array
+
+
+
+

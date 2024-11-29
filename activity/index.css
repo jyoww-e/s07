@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Montserrat", sans-serif;
+}
+#gameBox {
+  /* border: 1px solid black; */
+  width: calc(25px * 24);
+  height: calc(25px * 24);
+  background: #0f0f0f;
+  margin-top: 20px;
+  /* padding: 20px; */
+}
+
+#pacman-col {
+  background-color: #0f0f0f;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  display: inline-block;
+  /* padding: 10px; */
+  /* border: 1px solid #fff; */
+}
+
+.hp {
+  position: absolute;
+  top: -1px;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 11px; /* Adjust size as needed */
+  pointer-events: none; /* Prevent interaction with the text */
+  color: rgb(0, 255, 13);
+  font-weight: bold;
+}
+svg {
+  display: block;
+  top: 50%;
+  left: 50%;
+}
+
+.card {
+  color: #f9fd1b;
+  border: 0;
+  border-bottom: 1px solid #0f0f0f;
+  height: 500px;
+}
+
+.card-header {
+  border: 0;
+  background-image: linear-gradient(rgb(15, 15, 15), rgb(39, 38, 38));
+}
+
+.card-body {
+  color: rgb(15, 15, 15);
+}
+
+#eaten {
+  font-size: 18px;
+}
